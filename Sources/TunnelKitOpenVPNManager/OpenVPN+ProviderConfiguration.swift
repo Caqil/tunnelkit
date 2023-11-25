@@ -113,12 +113,8 @@ extension OpenVPN.ProviderConfiguration: NetworkExtensionConfiguration {
         }
         protocolConfiguration.disconnectOnSleep = extra?.disconnectsOnSleep ?? false
         protocolConfiguration.providerConfiguration = try asDictionary()
-        if #available(iOS 14.0.0, *) {
-    protocolConfiguration.includeAllNetworks = extra?.killSwitch ?? false
+        protocolConfiguration.includeAllNetworks = extra?.killSwitch ?? false
         return protocolConfiguration
-} else {
-   // This branch runs in earlier iOS versions.
-}
         
     }
 }
