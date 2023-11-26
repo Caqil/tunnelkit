@@ -1,4 +1,4 @@
-![iOS 15+](https://img.shields.io/badge/ios-15+-green.svg)
+![iOS 14+](https://img.shields.io/badge/ios-14+-green.svg)
 ![macOS 12+](https://img.shields.io/badge/macos-12+-green.svg)
 [![License GPLv3](https://img.shields.io/badge/license-GPLv3-lightgray.svg)](LICENSE)
 
